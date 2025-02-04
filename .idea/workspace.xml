@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85276ae9-9faf-41f5-8203-cf384899ff39" name="Changes" comment="stock-2&#10;rain-water&#10;merge-intervals">
-      <change afterPath="$PROJECT_DIR$/all-settled.js" afterDir="false" />
+    <list default="true" id="85276ae9-9faf-41f5-8203-cf384899ff39" name="Changes" comment="11. Container With Most Water">
+      <change afterPath="$PROJECT_DIR$/brackets.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.braces.js.executor": "Run",
     "Node.js.merge-intervals.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -49,12 +50,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.brackets.js">
+    <configuration name="brackets.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/brackets.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="merge-intervals.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/merge-intervals.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.brackets.js" />
         <item itemvalue="Node.js.merge-intervals.js" />
       </list>
     </recent_temporary>
@@ -70,7 +75,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="85276ae9-9faf-41f5-8203-cf384899ff39" name="Changes" comment="" />
-      <changelist id="" name="noCommit" comment="" />
       <created>1738391068383</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -81,6 +85,7 @@
       <workItem from="1738427828274" duration="116000" />
       <workItem from="1738428077696" duration="9333000" />
       <workItem from="1738598571466" duration="3314000" />
+      <workItem from="1738664613060" duration="2893000" />
     </task>
     <task id="LOCAL-00001" summary="stock-2&#10;rain-water&#10;merge-intervals">
       <option name="closed" value="true" />
@@ -98,7 +103,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738599447195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="11. Container With Most Water">
+      <option name="closed" value="true" />
+      <created>1738665948371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738665948371</updated>
+    </task>
+    <task id="LOCAL-00004" summary="11. Container With Most Water">
+      <option name="closed" value="true" />
+      <created>1738666054792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738666054792</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="stock-2&#10;rain-water&#10;merge-intervals" />
-    <option name="LAST_COMMIT_MESSAGE" value="stock-2&#10;rain-water&#10;merge-intervals" />
+    <MESSAGE value="11. Container With Most Water" />
+    <option name="LAST_COMMIT_MESSAGE" value="11. Container With Most Water" />
   </component>
 </project>
