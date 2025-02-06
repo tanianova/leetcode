@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3267c68b-f553-4dec-b3fe-fafcc650a3dd" name="Changes" comment="20. Valid Parentheses" />
+    <list default="true" id="3267c68b-f553-4dec-b3fe-fafcc650a3dd" name="Changes" comment="20. Valid Parentheses">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Node.js.act.js.executor": "Run",
+    "Node.js.array-intersect.js.executor": "Run",
+    "Node.js.g.js.executor": "Run",
     "Node.js.wall.js.executor": "Run",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -32,8 +36,11 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.wall.js">
+  <component name="RunManager" selected="Node.js.array-intersect.js">
     <configuration name="act.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/act.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="array-intersect.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array-intersect.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="wall.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/wall.js" working-dir="$PROJECT_DIR$">
@@ -41,6 +48,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.array-intersect.js" />
         <item itemvalue="Node.js.wall.js" />
         <item itemvalue="Node.js.act.js" />
       </list>
