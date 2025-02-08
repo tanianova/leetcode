@@ -14,6 +14,7 @@ let Input2 = [
     ["0", "0", "0", "1", "1"]
 ] // 3
 
+// сложность алгоритма по времени O(n*m)
 /**
  * @param {string[][]} grid
  * @return {number}
@@ -51,7 +52,7 @@ const numIslands = function (grid) {
 
         }
     }
-    console.log(grid)
+
     return counter
 };
 
