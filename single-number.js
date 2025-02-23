@@ -18,4 +18,21 @@ const singleNumber = function (nums) {
     return uniqueSum * 2 - numSum
 };
 
-console.log(singleNumber(input));
+const singleNumber2=(nums) =>{
+    let cnt = {}
+    for (let i = 0; i < nums.length; i++) {
+        let current = nums[i]
+        if (cnt[current]) {
+            cnt[current] += 1
+        } else {
+            cnt[current] = 1
+        }
+    }
+
+    for (let key in cnt) {
+        if (cnt[key] === 1) return Number(key)
+    }
+    return -1
+};
+
+console.log(singleNumber2(input));
