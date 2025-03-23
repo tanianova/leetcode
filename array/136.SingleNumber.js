@@ -18,7 +18,7 @@ const singleNumber = function (nums) {
     return uniqueSum * 2 - numSum
 };
 
-const singleNumber2=(nums) =>{
+const singleNumber2 = (nums) => {
     let cnt = {}
     for (let i = 0; i < nums.length; i++) {
         let current = nums[i]
