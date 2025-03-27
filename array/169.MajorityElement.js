@@ -23,6 +23,21 @@ const majorityElement = function (nums) {
 
 };
 
+const majorityElement2 = function (nums) {
+    let hashTable = {};
+    let max = 0;
+    let res = 0;
+    for (let i = 0; i < nums.length; i++) {
+        let curr = nums[i]
+        hashTable[curr] = (hashTable[curr] || 0) + 1
+        if (hashTable[curr] > max) {
+            max = hashTable[curr]
+            res = curr
+        }
+    }
+    return res
+}
+
 let nums = [3, 2, 3]
 console.log(majorityElement(nums)); // 3
 nums = [2, 2, 1, 1, 1, 2, 2]
