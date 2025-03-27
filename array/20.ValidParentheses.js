@@ -37,10 +37,9 @@ const isValid3 = function (s) {
         '[': ']'
     }
     for (let bracket of s) {
-        // смотрим по ключам
+        // смотрим по ключам - открывающаяся ли скобка нам встретилась
         if (bracket in brackets) {
             stack.push(brackets[bracket])
-            console.log(stack)
         } else {
             if (stack.length === 0) return false;
             const currentClosedBracket = stack.pop()
