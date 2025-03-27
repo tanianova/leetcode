@@ -27,6 +27,31 @@ const isValid = function (s) {
     return stack.length === 0
 };
 
+// ------- third variant
+
+const isValid3 = function (s) {
+    const stack = [];
+    const brackets = {
+        '(': ')',
+        '{': '}',
+        '[': ']'
+    }
+    for (let bracket of s) {
+        // смотрим по ключам
+        if (bracket in brackets) {
+            stack.push(brackets[bracket])
+            console.log(stack)
+        } else {
+            if (stack.length === 0) return false;
+            const currentClosedBracket = stack.pop()
+            if (currentClosedBracket !== bracket) {
+                return false;
+            }
+        }
+    }
+    return stack.length === 0
+}
+
 
 // ---- second variant
 
@@ -54,4 +79,4 @@ function isClosedBracket(ch) {
 }
 
 const s = "()[]{}" //true
-console.log(isValid(s))
+console.log(isValid3(s))
