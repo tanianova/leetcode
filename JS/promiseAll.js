@@ -7,25 +7,23 @@
 const promiseAll = function (functions) {
     return new Promise((resolve, reject) => {
         if (functions.length === 0) {
-            resolve([])
-            return
+            resolve([]);
+            return;
         }
-        const res = new Array(functions.length).fill(null)
+        const res = [];
+
         let resolvedCount = 0;
 
-        functions.forEach(async (func, idx) => {
-            try {
-                const subRes = await func()
-                res[idx] = subRes
-                resolvedCount++
+        functions.forEach((el, idx) => {
+            el().then((subResult) => {
+                res[idx] = subResult;
+                resolvedCount++;
                 if (resolvedCount === functions.length) {
-                    resolve(res)
+                    resolve(res);
                 }
-            } catch (err) {
-                reject(err)
-            }
-        })
-    })
+            }).catch(reject)
+        });
+    });
 };
 
 /**
