@@ -7,12 +7,21 @@
 const filter = function (arr, fn) {
     let filteredArray = []
     for (let i = 0; i < arr.length; i++) {
-        console.log(arr[i])
-        if ((fn(arr[i], i))) {
+        if ((fn(arr[i], i, arr))) {
             filteredArray.push(arr[i])
         }
     }
     return filteredArray
+};
+
+Array.prototype.myFilter = function(predicate) {
+    const result = [];
+    for (let i = 0; i < this.length; i++) {
+        if (predicate(this[i], i, this)) {
+            result.push(this[i]);
+        }
+    }
+    return result;
 };
 
 function greaterThan10(n) {
